@@ -4,7 +4,7 @@
 
 3. Ajouter *.pdf dans le fichier .gitignore.  
 
-git checkout main  
+4.git checkout main  
 git merge test_valide  
 git checkout main  
 git pull origin main  # Met à jour main avec la dernière version distante  
