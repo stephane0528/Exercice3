@@ -1,6 +1,11 @@
-1. cut -d -f1 /etc/passwd
-2. chmod 744 myfil
-3. git rm -- cached '*.pdf
+1. cut -d: -f1 /etc/passwd  
+
+2. chmod 744 myfile  
+
+3. Ajouter *.pdf dans le fichier .gitignore.  
+
+git checkout main  
+git merge test_valide  
 git checkout main  
 git pull origin main  # Met à jour main avec la dernière version distante  
 git merge test_valide  # Fusionne test_valide dans main  
